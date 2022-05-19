@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+ul {
+    list-style: none;
+}
+
+
+/* start head  */
+.hdng {
+    /* margin-bottom: 100px; */
+    text-align: center;
+    padding: 10px;
+}
+.hdng input {
+    padding: 15px;
+    text-transform: capitalize;
+    background-color: #d08f9a91;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    box-shadow: 4px 6px 11px -2px #888888;
+    font-style: italic;
+
+}
+/* end head  */
+
+/* start about  */
+
+.about {
+    display: none;
+    margin-top: 100px;
+}
+.about .cont {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    height: 170px;
+    padding-top: 12px;
+    font-size: 17px;
+    box-shadow: 4px 6px 8px 5px #8888884a;
+}
+
+/* end head  */
+
+/* start gallery  */
+.gallery {
+    margin: 100px auto;
+    text-align: center;
+    width: 600px;
+    display: none;
+    position: relative;
+}
+.right-btn, .left-btn {
+    /* width: 50px;
+    height: 50px; */
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+.left-btn {
+    left: -2px;
+}
+.right-btn img, .left-btn img {
+    width: 50px;
+}
+.gallery-img {
+    height: 300px;
+    width: 80%;
+}
+/* end gallery  */
+
+/* start services  */
+
+.services {
+    /* position: relative; */
+    display: none;
+}
+.services ul {
+    /* position: absolute;
+    right: 30.5%;
+    top: -22px; */
+    margin-top: -7px;
+    margin-left: 47.5%;
+}
+.services ul li {
+    padding: 15px;
+    text-transform: capitalize;
+    background-color: #d08f9a91;
+    text-align: center;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 200px;
+}
+/* end services  */
+
+/* start complain  */
+.complain {
+
+        width: 500px;
+        border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 2px 4px 8px 5px #8888884a;
+    display: none;
+    
+}
+.complain form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.complain input:not(:last-child) {
+    flex-basis: 70%;
+    margin-bottom: 10px;
+    padding: 9px;
+
+}
+.complain label {
+    flex-basis: 20%;
+    text-transform: capitalize;
+}
+.complain p {
+    text-align: center;
+    width: 100%;
+}
+.complain textarea {
+    height: 125px;
+    width: 100%;
+    margin: 0 48px;
+}
+.complain input[type="button"] {
+
+    margin: 20px auto;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* end complain  */
+
+/* start displaying  */
+
+.displaying {
+    width: 500px;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 4px 6px 8px 5px #888888;
+    text-align: center;
+    display: none;
+}
+.displaying p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.displaying #back {
+    padding: 8px;
+    text-transform: capitalize;
+    margin: 30px 0 10px;
+    cursor: pointer;
+}
+/* end displaying  */

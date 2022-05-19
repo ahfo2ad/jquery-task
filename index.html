@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>task1_jquery</title>
+</head>
+<body>
+    <div class="hdng">
+        <input type="button" id="abt" value="about">
+        <input type="button" id="glry" value="gallery">
+        <input type="button" id="srv" value="services">
+        <input type="button" id="comp" value="complain">
+    </div>
+
+    <div class="about">
+        <div class="cont">
+            <p>story about snow man</p>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <button type="button" class="left-btn">
+            <img src="images/left.png">
+        </button>
+        <img src="images/1.jpg" class="gallery-img">
+        <button type="button" class="right-btn">
+            <img src="images/right.png">
+        </button>
+    </div>
+    <div class="services">
+        <ul>
+            <li>item #1</li>
+            <li>item #2</li>
+            <li>item #3</li>
+        </ul>
+    </div>
+    <!-- complain -->
+    <div class="complain">
+        <form action="">
+            <label for="">name</label>
+            <input type="text" name="username" id="usnm">
+            <label for="">email</label>
+            <input type="email" name="mail" id="eml">
+            <label for="">phone</label>
+            <input type="text" name="ph" id="phon">
+            <p>complain</p>
+            <textarea name="compln" id="txtar" cols="30" rows="10"></textarea>
+            <input type="button" value="send" id="sending">
+        </form>
+    </div>
+    <div class="displaying">
+        <p id="compds"></p>
+        <p id="nameds"></p>
+        <p id="emailds"></p>
+        <p id="phoneds"></p>
+        <input type="button" value="back to edit" id="back">
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
